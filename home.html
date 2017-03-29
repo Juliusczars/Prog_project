@@ -1,0 +1,77 @@
+
+<?php
+   include('session.php');
+
+?>
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Home-ICT KNH</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script type='text/javascript' src='js/mobile.js'></script>
+	<script src="js/lumino.glyphs.js"></script>
+
+</head>
+<body>
+	<div id="heade">
+       <span style="padding: 30px 0;"><img src="images/logo.png"></span>
+       <label style="float:right">Welcome, <?php echo $login_session; ?> </label>
+	</div>
+	<div id="header">
+		
+		<ul id="navigation">
+			<li class="current">
+				<a href="home.html">Home</a>
+			</li>
+			<li>
+				<a href="procurement.html">Procurement</a>
+			</li>
+			<li>
+				<a href="dispatch.html">Dispatch</a>
+			</li>
+			<li>
+				<a href="#">Support</a>
+				<ul>
+					<li>
+						<a href="support.html">Helpdesk</a>
+					</li>
+					<li>
+						<a href="#">Telemed</a>
+					</li>
+					<li>
+						<a href="workshop.html">Workshop</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
+			<li>
+				<a href="reports.html">Reports</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<h2>Home</h2>
+		
+	</div>
+	<div id="footer">
+		<div>
+			
+			<p>
+				&copy; 2017 Kenyatta National Hospital . All rights reserved.
+			</p>
+		</div>
+		<div id="connect">
+			<a href="https:://www.facebook.com/Kenyatta-National-Hospital-222808627792716/" id="facebook" target="_blank">Facebook</a>
+			<a href="https:://twitter.com/knh_hospital?lang=en" id="twitter" target="_blank">Twitter</a>
+			<a href="http://knh.or.ke/" id="googleplus" target="_blank">Google&#43;</a>
+		</div>
+	</div>
+</body>
+</html>
